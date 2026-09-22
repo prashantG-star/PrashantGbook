@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>प्रशांत घाणेकर - अधिकृत संकेतस्थळ</title>
+    <style>
+        :root {
+            --primary-color: #be123c;
+            --dark-bg: #0f172a;
+            --light-bg: #f8fafc;
+            --text-color: #334155;
+        }
+        body {
+            font-family: 'Noto Sans Devanagari', 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--light-bg);
+            color: var(--text-color);
+            line-height: 1.8;
+        }
+        header {
+            background: linear-gradient(135deg, var(--dark-bg), #1e293b);
+            color: #ffffff;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 4px solid var(--primary-color);
+        }
+        header h1 {
+            font-size: 36px;
+            margin: 10px 0;
+            color: #fb7185;
+        }
+        header p {
+            font-size: 18px;
+            color: #cbd5e1;
+        }
+        nav {
+            background: #1e293b;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #fb7185;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            font-size: 28px;
+            color: var(--primary-color);
+            border-bottom: 2px solid #cbd5e1;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .about-grid {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            margin-bottom: 50px;
+        }
+        .about-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 4px solid var(--primary-color);
+            object-fit: cover;
+        }
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+        .book-card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            border-top: 4px solid var(--primary-color);
+        }
+        .book-card h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        .contact-box {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        footer {
+            background: var(--dark-bg);
+            color: #94a3b8;
+            text-align: center;
+            padding: 25px;
+            margin-top: 50px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>प्रशांत घाणेकर</h1>
+        <p>प्रसिद्ध कादंबरीकार, इतिहास अभ्यासक व रहस्यकथा लेखक</p>
+    </header>
+
+    <nav>
+        <a href="#about">परिचय</a>
+        <a href="#books">पुस्तके व कथा</a>
+        <a href="#contact">संपर्क</a>
+    </nav>
+
+    <div class="container">
+        
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="section-title">लेखक परिचय</h2>
+            <div class="about-grid">
+                <div>
+                    <img src="author_proper_photo.png" alt="प्रशांत घाणेकर" class="about-img">
+                </div>
+                <div>
+                    <h3 style="color: var(--primary-color); margin-top:0;">प्रशांत घाणेकर</h3>
+                    <p>
+                        मराठी साहित्यातील एक परिचित आणि लोकप्रिय नाव. मानवी मनाच्या कोपऱ्यात दडलेले भयंकर रहस्य, ऐतिहासिक कारस्थाने आणि थरारक कथा वाचकांसमोर मांडण्यात विशेष प्राविण्य. आपल्या खिळवून ठेवणाऱ्या लेखनशैलीने त्यांनी मराठी रहस्यकथा विश्वात एक नवा मापदंड प्रस्थापित केला आहे.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Books & Stories Section -->
+        <section id="books">
+            <h2 class="section-title">प्रमुख पुस्तके व थरारक कथा</h2>
+            <div class="books-grid">
+                <div class="book-card">
+                    <h3>१. छायानाट्य कादंबरी</h3>
+                    <p>संघर्ष, कारस्थान आणि प्रतिशोधाची थरारक गाथा. सावल्यांच्या मागे दडलेल्या गूढ सत्याचा प्रवास.</p>
+                </div>
+                <div class="book-card">
+                    <h3>२. मायानगरी का साया</h3>
+                    <p>मुंबईच्या ग्लॅमरस पण अंधाऱ्या दुनियेतील न उलगडलेले सत्य आणि अनस्क्रिप्टेड स्टोरी.</p>
+                </div>
+                <div class="book-card">
+                    <h3>३. रोड माफिया (Ghost स्टोरी)</h3>
+                    <p>निर्मनुष्य महामार्गावर रात्रीच्या सुमारास घडणाऱ्या थरारक आणि अंगावर काटा आणणाऱ्या घटना.</p>
+                </div>
+                <div class="book-card">
+                    <h3>४. विघ्नहर्ता विन्या</h3>
+                    <p>द बॉम्बे गेम - सिस्टम विरुद्धचा लढा आणि जिद्दी व्यक्तिमत्त्वाची कहाणी.</p>
+                </div>
+                <div class="book-card">
+                    <h3>५. फाईल २०२६</h3>
+                    <p>बंद दारामागचे सत्य उलगडणारा गोपनीय राजकीय व गुप्तहेर थरार.</p>
+                </div>
+                <div class="book-card">
+                    <h3>६. हॉररपट मालिका (भाग १ ते ५०)</h3>
+                    <p>गहिरं रहस्य आणि ५० भागांचा महासंग्रह जो वाचकांना शेवटपर्यंत खिळवून ठेवतो.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="contact-box">
+                <h2 class="section-title" style="border:none;">संपर्क व प्रकाशन माहिती</h2>
+                <p><strong>वेबसाईट:</strong> www.PrashantGbook.com</p>
+                <p><strong>संपर्क क्रमांक:</strong> ८८७९२८३९४३</p>
+                <p><strong>ईमेल:</strong> contact@prashantgbook.com</p>
+                <p style="margin-top: 20px; font-style: italic; color: #64748b;">
+                    "सर्व हक्क प्रकाशनाधीन सुरक्षित. पुस्तकातील किंवा अंकातील कोणतीही मजकूर पूर्वपरवानगीशिवाय वापरता येणार नाही."
+                </p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© २०२६ प्रशांत घाणेकर प्रकाशन. सर्वाधिकार सुरक्षित. | डिझाईन आणि निर्मिती - मुंबई, महाराष्ट्र</p>
+    </footer>
+
+</body>
+</html>
