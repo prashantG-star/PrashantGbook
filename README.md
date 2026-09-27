@@ -3,7 +3,7 @@
 ![Cover 1](./1000000818.jpg)
 ![Cover 2](./file_0000000094e481f8ae5997fea9427336.png)
 ![Cover 3](./file_00000000004c81f79732d90215e8370b.png)
-![Cover 4](./1000001014.png)
+![Cover 4](./file_000000009f7081fd824c3ffc2d2a47b4.png)
 ![Cover 5](./1000001030.png)
 ![Cover 6](./1000001078.png)
 ![Cover 7](./1790084181214.png)
