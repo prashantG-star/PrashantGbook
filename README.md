@@ -1,7 +1,7 @@
 # PrashantGbook
 
 ![Cover 1](./1000000818.jpg)
-![Cover 2](./1000001012.png)
+![Cover 2](./file_0000000094e481f8ae5997fea9427336.png)
 ![Cover 3](./1000001013.png)
 ![Cover 4](./1000001014.png)
 ![Cover 5](./1000001030.png)
